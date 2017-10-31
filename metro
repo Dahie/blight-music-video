@@ -1,0 +1,11 @@
+name "Blight"
+
+debug true
+
+author "Daniel Senff"
+contact "public@danielsenff.de"
+website "www.danielsenff.de"
+
+resolution 1920, 1080
+
+first_scene :pre_title

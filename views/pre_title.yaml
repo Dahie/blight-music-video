@@ -1,0 +1,48 @@
+---
+interpret:
+  :model: metro::ui::label
+  :text: Dahie
+  :position: '1520,109,4'
+  :font:
+    name: Bebas Neue
+    size: 110
+  :color: rgba(33,25,21,0.0)
+title:
+  :model: metro::ui::label
+  :text: Blight
+  :position: '1428,159,4'
+  :font:
+    name: Bebas Neue
+    size: 160
+  :color: rgba(136,45,0,0.0)
+sky:
+  :model: metro::ui::image
+  :position: '0,540,0'
+  :scale: '70,1'
+  :image: blight/sky.png
+  :color: rgba(255,255,255,0.2)
+clouds:
+  :model: metro::ui::image
+  :position: '-2450,360,1'
+  :scale: '1,1'
+  :image: blight/clouds.png
+  :color: rgba(255,255,255,1.0)
+clouds2:
+  :model: metro::ui::image
+  :position: '0,-800,1'
+  :position: '0,1400,1'
+  :scale: '1,1'
+  :image: blight/clouds2.png
+  :color: rgba(255,255,255,1.0)
+mountains:
+  :model: metro::ui::image
+  :position: '600,900,1'
+  :scale: '1,1'
+  :image: blight/mountains.png
+  :color: rgba(255,255,255,1.0)
+foreground:
+  :model: metro::ui::image
+  :position: '-4300,540,1'
+  :scale: '1,1'
+  :image: blight/foreground.png
+  :color: rgba(255,255,255,1.0)
