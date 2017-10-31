@@ -19,30 +19,31 @@ sky:
   :model: metro::ui::image
   :position: '0,540,0'
   :scale: '70,1'
-  :image: blight/sky.png
+  :image: sky.png
   :color: rgba(255,255,255,0.2)
 clouds:
   :model: metro::ui::image
-  :position: '-2450,360,1'
-  :scale: '1,1'
-  :image: blight/clouds.png
-  :color: rgba(255,255,255,1.0)
-clouds2:
-  :model: metro::ui::image
   :position: '0,-800,1'
   :position: '0,1400,1'
-  :scale: '1,1'
-  :image: blight/clouds2.png
+  :image: clouds2.png
   :color: rgba(255,255,255,1.0)
 mountains:
   :model: metro::ui::image
   :position: '600,900,1'
-  :scale: '1,1'
-  :image: blight/mountains.png
+  :image: mountains.png
+  :color: rgba(255,255,255,1.0)
+mountains_1:
+  :model: metro::ui::image
+  :position: '600,900,1'
+  :image: mountains_1.png
+  :color: rgba(255,255,255,1.0)
+mountains_2:
+  :model: metro::ui::image
+  :position: '800,900,1'
+  :image: mountains_2.png
   :color: rgba(255,255,255,1.0)
 foreground:
   :model: metro::ui::image
   :position: '-4300,540,1'
-  :scale: '1,1'
-  :image: blight/foreground.png
+  :image: foreground.png
   :color: rgba(255,255,255,1.0)
